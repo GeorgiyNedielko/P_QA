@@ -95,4 +95,5 @@ def test_angebote_section(setup_browser):
     )
 
     # 6. Скрин всей страницы после перехода
-    driver.save_screenshot("mediamarkt_angebote.png")
+    driver.save_screenshot("DZ2/mediamarkt_angebote.png")
+
