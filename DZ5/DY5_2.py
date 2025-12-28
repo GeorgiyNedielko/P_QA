@@ -54,6 +54,8 @@ def test_drag_and_drop_image_to_trash(browser):
     # ---------- 6. Проверяем, что фото появилось в корзине ----------
     wait.until(lambda d: len(d.find_elements(By.CSS_SELECTOR, "#trash li")) == 1)
 
+
+
     trash_items = browser.find_elements(By.CSS_SELECTOR, "#trash li")
     gallery_after = browser.find_elements(By.CSS_SELECTOR, "#gallery li")
 
